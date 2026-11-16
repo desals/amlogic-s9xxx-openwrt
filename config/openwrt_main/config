@@ -3154,9 +3154,13 @@ CONFIG_PACKAGE_kmod-rtc-rx8025=y
 #
 # Sound Support
 
-CONFIG_PACKAGE_kmod-usb-audio=y
 CONFIG_PACKAGE_kmod-sound-core=y
+CONFIG_PACKAGE_kmod-usb-audio=y
 CONFIG_PACKAGE_alsa-utils=y
+CONFIG_PACKAGE_alsa-lib=y
+CONFIG_PACKAGE_alsa-ucm-conf=y
+CONFIG_PACKAGE_libncursesw=y
+CONFIG_PACKAGE_libpthread=y
 
 # end of Sound Support
 
